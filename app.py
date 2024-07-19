@@ -108,7 +108,7 @@ def main():
 
         add_selectbox = st.selectbox(
                                 "Options: ",
-                                    ("Text", "Audio", "Document")
+                                    ("Text", "Document")
                                 )
 
     with st.chat_message('Assistant'):
@@ -119,8 +119,7 @@ def main():
         text_prompt()
     elif add_selectbox == 'Document':
         process_file()
-    elif add_selectbox == 'Audio':
-        pass
+
 
 
 if __name__ == '__main__':
