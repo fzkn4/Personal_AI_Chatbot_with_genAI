@@ -101,9 +101,9 @@ def main():
     #side bar contents
     with st.sidebar:
         #Webpage title 
-        st.title('AUTOMATIC TUBAG PANGUTANA')
+        st.title('PERSONAL AI CHATBOT WITH LANGCHAIN')
         st.markdown("""
-            *`Your personal AI Assistant`*
+            *`Your personal AI Chatbot`*
                 """)
 
         add_selectbox = st.selectbox(
