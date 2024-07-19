@@ -1,4 +1,0 @@
-langchain
-dotenv
-streamlit 
-pypdf2
